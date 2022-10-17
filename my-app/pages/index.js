@@ -274,7 +274,7 @@ export default function Home() {
         <meta name="description" content="Tipping site" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500&display=swap" rel="stylesheet"/>
       </Head>
 
@@ -292,7 +292,7 @@ export default function Home() {
             variants={textAnimate}
             
           >
-            Izzy's Coffee Shop
+            Izzy's Coffee Shop..
           </motion.h1>
           
           {currentAccount ? (
